@@ -1,4 +1,4 @@
-ProjectEuler
+Project Euler Solutions
 ============
 
-Solutions to Project Euler problems
+These are solutions to various Project Euler problems, written in various languages, primarily Java and Python.
