@@ -24,4 +24,4 @@ assert isPrime(7) == 1
 '''
 
 def getListOfPrimes(n, limit):
-	return [1, 2, [1, 2, 3]]
+	return 0
