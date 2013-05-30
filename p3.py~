@@ -1,8 +1,0 @@
-from math import *
-from primes import *
-
-num = 13195 #the test number
-squarenum = floor(sqrt(num))
-
-print(squarenum)
-
