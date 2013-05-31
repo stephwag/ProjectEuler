@@ -24,4 +24,18 @@ assert isPrime(7) == 1
 '''
 
 def getListOfPrimes(n, limit):
+	primes = []
+	for i in range(n, limit + 1):
+		if isPrime(i):
+			primes.append(i)
+	return primes
+
+
+#Problem 3
+def LargestPrimeFactor(n):
+	num = int(floor(sqrt(n)))
+	for p in xrange(num,2,-1):
+		if isPrime(p):
+			if n % p == 0:
+				return p
 	return 0

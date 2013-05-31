@@ -1,8 +1,5 @@
-from math import *
 from primes import *
 
-num = 13195 #the test number
-squarenum = floor(sqrt(num))
-test = getListOfPrimes(1,1)
-print(squarenum)
-print(test)
+assert LargestPrimeFactor(13195) == 29
+
+print(LargestPrimeFactor(600851475143))
